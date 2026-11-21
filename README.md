@@ -1,13 +1,15 @@
-![Five simulated paths of Brownian motion starting at the same point and wandering in different directions over time](assets/brownian-motion.svg)
+![Rippling blue and violet strands of light](assets/luminous_flow_coherent_optimized.gif)
 
-# Hi, I’m Wiktor
+# Hi, I'm Wiktor
 
-I study Mathematics and Artificial Intelligence. Probability is the part of math I keep coming back to. I like using PyTorch to understand deep learning by building the pieces myself, from writing training loops to tracing how a language model generates its next token.
+I'm studying Mathematics and Artificial Intelligence. I'm particularly interested in deep learning and probability, and I enjoy exploring the ideas behind how things work.
 
-### What I’m exploring
+I like experimenting with neural networks, learning about LLM training and inference, and understanding how to make these systems work at scale.
 
-I’m interested in what changes as models get larger. How do you split model weights and training state across devices? What affects memory use and latency during inference?
+### What I'm exploring
 
-I’m also curious about coding agents, how their harnesses work, and how AI tools might help with mathematical research. Lately I’ve been exploring physics for fun, too.
+Recently, I've been spending more time with AI agents, especially coding agents, their tooling, and how they can be used for more complex tasks.
+
+I'm also interested in bringing together mathematics and AI, particularly exploring how agents could help with mathematical research.
 
 [Personal site](https://wiktorzoga.com) · [X](https://x.com/WiktorZoga)
