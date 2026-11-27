@@ -1,15 +1,23 @@
-![Rippling blue and violet strands of light](assets/luminous_flow_coherent_optimized.gif)
+# Wiktor Zoga
 
-# Hi, I'm Wiktor
+I study Mathematics and Artificial Intelligence. I am interested in deep learning: how a model is trained, how inference works, and what changes its runtime and memory.
 
-I'm studying Mathematics and Artificial Intelligence. I'm particularly interested in deep learning and probability, and I enjoy exploring the ideas behind how things work.
+Most of this work is in PyTorch and Python. I also write C++.
 
-I like experimenting with neural networks, learning about LLM training and inference, and understanding how to make these systems work at scale.
+## Projects
 
-### What I'm exploring
+### [LLM Systems Lab](https://github.com/WiktorZoga/llm-systems-lab)
 
-Recently, I've been spending more time with AI agents, especially coding agents, their tooling, and how they can be used for more complex tasks.
+A GPT-style Transformer in PyTorch, with the training loop, gradient accumulation, activation checkpointing, and KV-cached generation. The checked-in scaling, attention, and memory measurements are from an M4 Mac on MPS. CUDA configs in the repo have not been run.
 
-I'm also interested in bringing together mathematics and AI, particularly exploring how agents could help with mathematical research.
+### [FI-2010 knowledge distillation](https://github.com/WiktorZoga/hft-knowledge-distillation)
+
+Mid-price direction on the FI-2010 limit-order book. A reduced DeepLOB-style CNN/LSTM teacher is distilled into an MLP with a temperature-scaled KL loss. In the recorded test results the student is less accurate and has a lower single-sample forward latency. There is no student trained without distillation, so that gap is not a distillation gain. This is not a trading system.
+
+### [Endometriosis lesion segmentation](https://github.com/WiktorZoga/endometriosis)
+
+Binary segmentation of laparoscopic frames with U-Net, U-Net++, SwinUNETR, and a custom ResNet-50 multi-scale decoder. The `rt-detr` name is legacy and is not an RT-DETR model. Dice and IoU are on a 38-image test set. The split is image-level, so frames from the same video can land in different folds. This is not a clinical result.
+
+I also spend time on coding agents, including how they can help with mathematical work.
 
 [Personal site](https://wiktorzoga.com) · [X](https://x.com/WiktorZoga)
